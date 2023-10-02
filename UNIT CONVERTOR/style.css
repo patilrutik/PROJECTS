@@ -1,0 +1,172 @@
+body{
+    /* background-color: black; */
+}
+
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height:auto;
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   margin:10px;
+}
+.unit-selector{
+    width:633px;
+    padding:20px;
+    margin:30px;
+   
+}
+
+.inputs{
+    width:276px;
+    height:30px;
+    padding:10px;
+  font-size: x-large;
+ 
+}
+
+select{
+    font-size: x-large;
+}
+span{
+    font-size:xx-large;
+}
+
+
+.container{
+    border:1px solid gray;
+    border-radius: 10px;
+   margin: 100px 400px;
+
+}
+
+.formula{
+    margin:10px 80px;
+    width:100px;
+    height:40px;
+    font-size:x-large;
+    text-align: center;
+    color:white;
+    background-color: orange;
+}
+
+
+/* Media queries for responsive layout */
+@media (max-width: 768px) {
+    .container {
+        margin: 50px 100px;
+    }
+
+    .container-1 {
+        margin: 0 100px;
+    }
+
+    .main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .container-2 {
+        margin: 10px 100px;
+    }
+
+    .formula {
+        margin: 10px 50px;
+    }
+    .unit-selector{
+    
+        width:300px;
+    padding:10px;
+    margin-left: 5px;
+    }
+
+    .btn{
+        display: flex;
+
+    }
+    
+    span{
+        margin:0px 250px;
+    }
+    .formula{
+        margin:10px 65px;
+       
+      
+    }
+    .reset-btn{
+        margin:10px 50px;
+       
+    }
+  
+}
+
+@media (max-width: 576px) {
+    .inputs,
+    select,
+    .formula ,.unit-selector{
+        font-size: large;
+    }
+    .unit-selector{
+    
+        width:300px;
+    padding:10px;
+    margin:0px;
+    }
+
+    .container {
+        margin: 10px 50px;
+    }
+    .container-1,.container-2{
+        margin: 10px 75px;;
+    }
+    span{
+        margin:0px 200px;
+    }
+    .formula{
+        margin:10px 70px;
+      
+    }
+    .reset-btn{
+        margin:10px 70px;
+    }
+}
+
+
+.text{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: x-large;
+}
+
+
+
+.reset-btn{
+    margin:10px 140px;
+    width:100px;
+    height:40px;
+    font-size:x-large;
+    text-align: center;
+    color:white;
+    background-color: rgb(63, 120, 184);
+
+   
+}
