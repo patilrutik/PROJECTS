@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to left, #e5e3de 0%, #74b0e0 100%);
+    margin: 0;
+    padding: 0; 
+   
+  }
+  
+
+  .create-container{
+    background-color: rgb(245, 242, 242);
+    color:rgb(14, 13, 13);
+   
+  }
